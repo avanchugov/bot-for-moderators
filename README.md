@@ -34,9 +34,10 @@ docker compose version
 Клонируйте репозиторий:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/bot-for-moderators.git
-cd bot-for-moderators
+git clone -b fixed-version https://github.com/KasumiTomioka/bot-for-moderators-fixed.git
+cd bot-for-moderators-fixed
 ```
+
 
 Создайте `.env`:
 
