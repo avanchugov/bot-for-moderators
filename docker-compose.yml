@@ -19,8 +19,11 @@ services:
   app:
     build: .
     container_name: bot
+    restart: always
     depends_on:
       - mysql
+    env_file:
+      - .env
 
 volumes:
   mysql_data:
