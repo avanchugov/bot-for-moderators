@@ -1,0 +1,22 @@
+{
+  "name": "bot-for-moderators",
+  "version": "1.0.0",
+  "description": "[Russian localization] Bot for moderating staff. Previously private",
+  "main": "dist/Main.js",
+  "scripts": {
+    "build": "tsup",
+    "start": "node dist/Main.js",
+    "dev": "ts-node Main.ts"
+  },
+  "dependencies": {
+    "@kop3yka/time": "^0.0.2",
+    "axios": "^1.10.0",
+    "dotenv": "^16.5.0",
+    "modular-orm": "^0.1.8",
+    "reflect-metadata": "^0.2.2",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3",
+    "vk-io": "^4.9.1"
+  }
+}
